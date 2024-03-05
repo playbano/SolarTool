@@ -1,0 +1,55 @@
+.menu-button,
+.link-menu-button {
+  background-color: var(--raisin-black);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--buff);
+  border-color: var(--wine);
+  border-style: solid;
+  padding: 20px;
+  border-radius: 10%;
+}
+.link-menu-button {
+  padding: 14px;
+  font-size: 13px;
+  align-content: flex-start;
+  margin-right: auto;
+}
+
+/*Hover & effekter*/
+.menu-button:hover {
+  color: rgb(243, 243, 60);
+  opacity: 0.9;
+  transition: 0.1s;
+}
+.menu-button:active {
+  background-color: rgb(255, 230, 3);
+  color: black;
+}
+.link-menu-button:hover {
+  color: rgb(243, 243, 60);
+  opacity: 0.9;
+  transition: 0.1s;
+}
+.link-menu-button:active {
+  background-color: rgb(255, 230, 3);
+  color: black;
+}
+
+
+
+.button-small {
+  background-color: var(--raisin-black);
+  padding: 20px;
+  border-radius: 10%;
+  border: none;
+  color: var(--buff);
+}
+.map-wrap-text-wrap-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-wrap-text-wrap-button-wrapper > * {
+  margin: 2.5vw; 
+}
+
